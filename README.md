@@ -6,7 +6,7 @@ This guide provides Python code in a jupyter notebook and requires creation of a
 
 # Setting up Wise account
 
-Follow Wise's [onboarding process](wise.com/register). Choose "Business account", which is also available for freelancers. Wise doesn't usually require a proof of business entity from freelancers, which makes this step relatively straightforward. You must choose "Business account" because payment automation features (which we require) are not available for personal accounts. You will be asked to prove your identity and you will need to wait (usually less than 24 hours) for it to be verified.
+Follow Wise's [onboarding process](https://wise.com/register). Choose "Business account", which is also available for freelancers. Wise doesn't usually require a proof of business entity from freelancers, which makes this step relatively straightforward. You must choose "Business account" because payment automation features (which we require) are not available for personal accounts. You will be asked to prove your identity and you will need to wait (usually less than 24 hours) for it to be verified.
 
 Once you are verified top up your Wise account with some money (just go to the balance in your preferred currency and click "Add"). 10 USD/GBP/EUR/etc... should be enough for testing. You can use a bank transfer or a debit/credit card or ApplePay to top up.
 
