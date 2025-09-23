@@ -2,7 +2,7 @@
 
 This guide shows how to send real money (such as USD, EUR, GBP, [and 46 other currencies](https://wise.com/help/articles/2571907/what-currencies-can-i-send-to-and-from)) using the Python programming language. Money is sent using bank transfers between bank accounts, and currencies are converted at competitive rates for international transfers (so one can hold money in e.g. EUR and pay it out in e.g. USD).
 
-This guide is ideal for technical founders, who can quickly use the source code provided to build their own collection of in-house scripts for automated processing of invoices, automating payroll or automating other financial processes in their startup. I will publish a less "techy" and more "productised" approach suitable for non-technical founders in future editions of this newsletter, so make sure to subscribe!
+This guide is ideal for technical founders, who can quickly use the source code provided to build their own collection of in-house scripts for automated processing of invoices, automating payroll or automating other financial processes in their startup. I will publish a less "techy" and more "productised" approach suitable for non-technical founders in the future editions of this newsletter, so make sure to [subscribe](https://vineyard-payments.ghost.io/send-real-money-with-python-in-49-currencies/#/portal/signup)!
 
 This guide provides Python code in a Jupyter notebook and requires creation of an account with the fintech [Wise](https://wise.com), which handles Know Your Customer (KYC) and Anti Money Laundering (AML) checks and provides compliance with money transmission regulations. An account can be created by residents of [eligible regions and countries](https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise). It usually takes less than 24 hours to open an account.
 
@@ -16,7 +16,7 @@ Once you are verified, top up your Wise balance with some real money (just go to
 
 # Configure the Wise API token
 
-First, create a local copy of this repository:
+First, create a local copy of [this repository](https://github.com/picrin/money_sending_guide):
 
 `git clone https://github.com/picrin/money_sending_guide.git`
 
@@ -70,5 +70,4 @@ Start the jupyter server
 
 `jupyter notebook`
 
-And open the web browser to run the `send_money.ipynb` Python script that transfers a small amount of money to the author of this guide :)
-
+And open the web browser to run the `send_money.ipynb` jupyter notebook, which transfers a small amount of money to the author of this guide :)
