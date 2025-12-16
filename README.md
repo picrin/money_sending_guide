@@ -71,3 +71,9 @@ Start the jupyter server
 `jupyter notebook`
 
 And open the web browser to run the `send_money.ipynb` jupyter notebook, which transfers a small amount of money to the author of this guide :)
+
+## Revolut Payment Drafts
+
+This repository also supports Revolut Business API. Unlike Wise which executes payments immediately (with SCA), Revolut creates payment drafts that require manual approval in the Revolut app before execution. This is useful for workflows where you want to automate payment preparation but keep a human in the loop for final approval.
+To get started, generate an RSA keypair, share the public certificate with your customer, and have them upload it to their Revolut Business API settings. See 
+`revolut_payment_drafts.ipynb` for the full implementation.
